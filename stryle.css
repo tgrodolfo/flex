@@ -1,0 +1,53 @@
+#container{
+    height: 500px;
+    border: dashed 3px red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    border: solid 3px blue;
+}.item.um{
+    background-color: red;
+}.item.dois{
+    background-color: grey;
+}.item.tres{
+    background-color: pink;
+}
+
+.atividade{
+    height: 550px;
+    width: 1100px;
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    justify-content: space-evenly;
+
+}.verde{
+    background-color: green;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}.laranja{
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}.azul{
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+}.verdezul{
+    background-color: blue;
+    width: 100PX;
+    height: 300px;
+}
